@@ -1,0 +1,112 @@
+/* 
+margin es el espacio del elemento en el HTML
+border es el borde del elemento en el HTML
+padding es el espacio del elemento en el borde
+background-color: rgba(red, green, blue, 0.3);
+*/
+
+/* Style of all element */
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+                 'Lucida Grande', 'Lucida Sans', Arial, 
+                  sans-serif;
+    background-color: #f5f5dc;
+    color: rgb(133, 64, 5);
+    margin: 100;
+    padding: 100;
+    text-align: justify;
+}
+
+hr {
+    border: 1px solid rgb(133, 64, 5);
+}
+
+/* Style first heading */
+#TituloPrincipal {
+    margin: 50px 350px;
+    padding: 10px 70px; 
+    border: 5px outset goldenrod;
+                /*
+                dotted
+                dashed
+                solid
+                double
+                groove 3d
+                ridge 3d
+                inset 3d
+                outset 3d
+                none
+                hidden
+                */
+}
+
+/* Style second heading */
+#MiNombre {
+    margin: 20px 1080px 20px 20px;
+    padding: 10px; 
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+}
+
+#MyPortfolio {
+    margin: 20px 1200px 20px 20px;
+    padding: 10px;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+}
+
+/* Style third heading */
+h3.Subtitulo2 {
+    margin: 20px 1080px 20px 20px;
+    padding: 10px; 
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+}
+
+/* Style of varied elements */
+#Description {
+    margin: 20px 1010px 20px 20px;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 50px;
+}
+
+#Foto {
+    margin: 20px 1010px 20px 20px;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 100px;
+}
+
+.Link {
+    color: rgb(133, 64, 5);
+}
+
+.Link:hover {
+    color: rgba(165, 42, 42, 0.642);
+}
+
+/* Estilos de la tabla */
+#Tabla {
+    position: fixed;
+    left: 1100px;
+    top: 25px;
+    width: 250px;
+    border-collapse: collapse;
+
+}
+
+td, th {
+    border: 1px solid rgb(133, 64, 5);
+}
+
+th {
+    background-color: rgb(133, 64, 5);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.TSubtitulos {
+   list-style-type: lower-alpha;
+}

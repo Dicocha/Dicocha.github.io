@@ -1,0 +1,117 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{% static 'StyleBlog.css' %}"/>
+</head>
+
+<body>
+    <header>
+        <h1 class="Titulo">Dicocha´s Portfolio</h1>
+        <table id="Tabla">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ol>
+                            <li>
+                                <a href="#Projects">
+                                    Projects
+                                </a>
+                            </li>
+                            <ol class="TSubtitulos">
+                                <li>
+                                    <a href="#Snake">
+                                        Snake 2
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#TerminalTools">
+                                        TerminalTools
+                                    </a>
+                                </li>
+                            </ol>
+                            <li>
+                                <a href="#Contact">
+                                    Contact me
+                                </a>
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="Img/Foto.jpg" width="200"/>
+        <p>
+            I'm a guy that like programming, 
+            I did learn first time in my technical high school,
+            but I took in serious in 2020 with Python as my first programming language, 
+            and I have continued to learn and I will continue
+        </p>
+    </header>
+    
+
+    <!-- Change to how made -->
+    <section>
+        <h2 class="Subtitulo">Projects</h2>
+        <p class="Cuerpo">
+            This are my projects that I made
+        </p>
+
+        <article id="Snake">
+            <h3 class="Subtitulo2">Snake 2</h3>
+            <p class="Cuerpo">
+                It's a game based on the classic snake game, 
+                but in my style with power ups and online ranked, 
+                I'm thinking of releasing a new update.
+            </p>
+            <a href="https://github.com/Dicocha/Snake-2">
+                Github
+            </a>
+        </article>
+
+        <article id="TerminalTools">
+            <h3 class="Subtitulo2">TerminalTools</h3>
+            <p class="Cuerpo">
+                A small program that aims to reduce time in terminal with many functions
+            </p>
+            <a href="https://github.com/Dicocha/Terminal-Tools">
+                Github
+            </a>
+        </article>
+        
+    </section>
+
+    <footer>
+        <h2 class="Subtitulo" id="Contact">Contact</h2>
+        <article>
+            <h3 class="Subtitulo2">My github</h3>
+            <a href="https://github.com/Dicocha"
+            target="_blank">
+                Link to my github
+            </a>
+        </article>
+        <br>
+        <article>
+            <h3 class="Subtitulo2">My linkedin</h3>
+            <a href="https://www.linkedin.com/in/diego-coto-chaves-a9a8b817a/"
+            target="_blank">
+                Link to my linkedin
+            </a>
+        </article>
+        <br>
+        <article>
+            <h3 class="Subtitulo2">My E-mail</h3>
+            <a href="mailto:diegocoto27@outlook.com">Send Email</a>
+        </article>
+        
+    </footer>
+</body>
+</html>
